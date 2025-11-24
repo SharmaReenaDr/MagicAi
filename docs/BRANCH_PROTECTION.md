@@ -1,12 +1,13 @@
-# Branch Protection Guide for Neocortex
+# Branch Protection Guide for MagicAi
 
 This guide provides recommended branch protection rules for the `main` branch to maintain code quality and prevent accidental or malicious changes.
+> **Note:** MagicAi is built on Neocortex. This guide applies to the MagicAi repository.
 
 ## Quick Setup
 
 Navigate to your GitHub repository settings:
 ```
-https://github.com/ankityadavv2014/neocortex/settings/branches
+https://github.com/SharmaReenaDr/MagicAi/settings/branches
 ```
 
 Click **"Add branch protection rule"** for the `main` branch.

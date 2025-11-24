@@ -1,6 +1,6 @@
 # 🔒 Local LLM Security Lab Setup Guide
 
-> Transform Neocortex into a completely local, air-gapped security analysis platform powered by open-source LLMs.
+> Transform MagicAi (built on Neocortex) into a completely local, air-gapped security analysis platform powered by open-source LLMs.
 
 ## Philosophy: Zero Cloud, Full Control
 
@@ -18,7 +18,7 @@ No data leaves your network. Ever.
 
 ```
 ┌─────────────────────────────────────────────────────────┐
-│                    Neocortex Frontend                   │
+│                    MagicAi Frontend (Neocortex-based)                   │
 │          (Next.js UI - Role-based Dashboards)           │
 └─────────────────────┬───────────────────────────────────┘
                       │

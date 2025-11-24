@@ -1,30 +1,34 @@
 # 🔧 MCP Server Configuration Guide
 
-> This guide explains how to add MCP servers to Neocortex by defining their configuration in JSON format. Each MCP server entry is stored in the database and supports different transport types: `stdio`, `SSE`, and `StreamableHTTP`.
+> **Note:** MagicAi (Fitness Life Mantra) is built on the Neocortex framework. This guide uses "Neocortex" to refer to the underlying platform architecture.
 
-## 🛡️ Neocortex MCP Philosophy: Local-First & Private
+> This guide explains how to add MCP servers to MagicAi/Neocortex by defining their configuration in JSON format. Each MCP server entry is stored in the database and supports different transport types: `stdio`, `SSE`, and `StreamableHTTP`.
 
-Neocortex is designed for **local-first, private use**. We prioritize:
+## 🛡️ MCP Philosophy: Local-First & Private
+
+MagicAi (powered by Neocortex) is designed for **local-first, private use**. We prioritize:
 
 - **Local MCP servers** running in your network (via `stdio`)
 - **Environment-based secrets** (never hardcoded tokens)
 - **Explicit external server warnings** (⚠️ for remote/hosted MCPs)
-- **No external registries** - you control what connects to your digital mirror-self
+- **No external registries** - you control what connects to your AI assistant
 
-### Installing MCP Servers in Neocortex
+### Installing MCP Servers
 
 To add an MCP server:
 
 1. **Run the MCP server locally** (via `npx`, `npm`, `pnpm`, `uv`, `docker`, etc.)
-2. **Add its configuration** through Neocortex UI (Settings → MCP Servers)
+2. **Add its configuration** through the UI (Settings → MCP Servers)
 3. **Use environment variables** for secrets (never paste tokens directly)
-4. **Enable/test** the server in Neocortex - no restart needed
+4. **Enable/test** the server - no restart needed
 
 ---
 
 You can add new MCP servers effortlessly through the UI — no need to restart the app. Each tool is available instantly and can be tested independently outside of chat. This is perfect for quick debugging and reliable development workflows.
 
 ![add-mcp-server](https://github.com/user-attachments/assets/f66ae118-883e-4638-b4fc-9f9849566da2)
+
+<br/>
 
 <br/>
 
