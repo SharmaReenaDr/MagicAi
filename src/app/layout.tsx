@@ -19,9 +19,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Neocortex",
+  title: "MagicAi - Fitness Life Mantra",
   description:
-    "Your digital mirror-self. Neocortex learns your patterns, retains context, simulates outcomes, and helps you make better decisions with deep understanding and intelligent anticipation.",
+    "Your AI-powered fitness coach. MagicAi helps you live life to the fullest—physically, mentally, and emotionally—through personalized guidance, movement routines, and daily rituals.",
 };
 
 export default async function RootLayout({

@@ -53,7 +53,7 @@ export const buildUserSystemPrompt = (
   userPreferences?: UserPreferences,
   agent?: Agent,
 ) => {
-  const assistantName = agent?.name || userPreferences?.botName || "Neocortex";
+  const assistantName = agent?.name || userPreferences?.botName || "MagicAi";
   const currentTime = format(new Date(), "EEEE, MMMM d, yyyy 'at' h:mm:ss a");
 
   let prompt = `You are ${assistantName}, your user's digital mirror-self`;
@@ -147,7 +147,7 @@ export const buildSpeechSystemPrompt = (
   userPreferences?: UserPreferences,
   agent?: Agent,
 ) => {
-  const assistantName = agent?.name || userPreferences?.botName || "Neocortex";
+  const assistantName = agent?.name || userPreferences?.botName || "MagicAi";
   const currentTime = format(new Date(), "EEEE, MMMM d, yyyy 'at' h:mm:ss a");
 
   let prompt = `You are ${assistantName}, the user's digital mirror-self in voice mode`;

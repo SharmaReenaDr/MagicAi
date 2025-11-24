@@ -142,7 +142,7 @@ export function UserInstructionsContent() {
             <Skeleton className="h-9" />
           ) : (
             <Input
-              placeholder="Neocortex"
+              placeholder="MagicAi"
               value={preferences.botName}
               onChange={(e) => {
                 setPreferences({
